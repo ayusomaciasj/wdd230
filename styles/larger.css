@@ -5,9 +5,16 @@
         justify-content: space-around;
     }
 
+    nav ul.open{
+        
+    }
+
     #cards{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 }
     
+#menu-button {
+    display: none;
+}
