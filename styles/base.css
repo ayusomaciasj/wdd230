@@ -65,12 +65,18 @@ nav ul li{
     padding: 1rem;
     width: 100%;
     color: white;
+    list-style: none;
 }
 
 nav ul li:hover{
     color: black;
     background-color: var(--header-color);
 
+}
+
+#content > main > div > section > ul > li > a{ 
+    text-decoration: none;
+    color: white;
 }
 
 nav ul li a{
@@ -83,7 +89,6 @@ nav ul li a{
 
     width: 600px;
     margin: 50px 0px;
-
 }
 
 #topheader img{
