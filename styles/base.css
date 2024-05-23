@@ -17,7 +17,7 @@ body{
 
 #content {
     max-width: 1024px;
-    margin: 0;
+    margin: auto;
     background-color: var(--card-color);
 }
 

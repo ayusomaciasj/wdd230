@@ -7,7 +7,7 @@ function populateCurrentYear(){
 
 //function to populate the last modified date
 function populateLastModified(){
-    var lastModifiedDate = document.lastModified;
+    var lastModified = document.lastModified;
     document.getElementById("lastModified").textContent = `Last Modified: ${lastModified}`;
 }
 
